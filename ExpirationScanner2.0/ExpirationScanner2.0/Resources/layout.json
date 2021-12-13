@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "type": "Beer",
+        "title": "",
+        "subtitle": ""
+        "items": [
+            {
+                "id": 1,
+                "tagline": "Beer",
+                "name": "Natty Daddy",
+                "subheading": "Busch",
+                "imageName": "nattyDaddy"
+            },
+            {
+                
+                "id": 2,
+                "tagLine": "Beer",
+                "name": "Natural Ice",
+                "subheading": "Busch",
+                "imageName": "naturalIce"
+            },
+            {
+                "id": 3,
+                "tagline": "Beer",
+                "name": "Bud Ice",
+                "subheading": "Busch",
+                "imageName": "budIce"
+            },
+            {
+                "id": 4,
+                "tagline": "Beer",
+                "name": "Labatt Blue",
+                "subheading": "Busch",
+                "imageName": "labattBlue"
+            },
+            {
+                "id": 5,
+                "tagline": "Beer",
+                "name": "Genesee Light",
+                "subheading": "Busch",
+                "imageName": "geneseeLogo"
+            },
+        ]
+    },
+]

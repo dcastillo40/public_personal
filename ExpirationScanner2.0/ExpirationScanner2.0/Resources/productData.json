@@ -1,0 +1,184 @@
+[
+    {
+        "name": "Natty Daddy",
+        "id": 1,
+        "expFormat": "Julian Day",
+        "category": "Beer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 180,
+          "format": "days"
+        },
+        "imageName": "nattyDaddy",
+        "imageCategory": "nattyDaddyLogo"
+    },
+    {
+        "name": "Natural Ice",
+        "id": 2,
+        "expFormat": "Julian Day",
+        "category": "Beer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 180,
+          "format": "days"
+        },
+        "imageName": "naturalIce",
+        "imageCategory": "natIceLogo"
+    },
+    {
+        "name": "Natural Light",
+        "id": 3,
+        "expFormat": "Julian Day",
+        "category": "Beer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 180,
+          "format": "days"
+        },
+        "imageName": "naturalLight",
+        "imageCategory": "natLightLogo"
+    },
+    {
+        "name": "Bud Ice",
+        "id": 4,
+        "expFormat": "Julian Day",
+        "category": "Beer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 180,
+          "format": "days"
+        },
+        "imageName": "budIce",
+        "imageCategory": "budIceLogo"
+    },
+    {
+        "name": "Labatt Blue",
+        "id": 5,
+        "expFormat": "Day",
+        "category": "Beer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 140,
+          "format": "days"
+        },
+        "imageName": "labattBlue",
+        "imageCategory": "labattLogo"
+    },
+    {
+        "name": "Genesee Light",
+        "id": 6,
+        "expFormat": "Day",
+        "category": "Beer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 140,
+          "format": "days"
+        },
+        "imageName": "geneseeLight",
+        "imageCategory": "geneseeLogo"
+    },
+    {
+        "name": "Smirnoff Ice",
+        "id": 7,
+        "expFormat": "Ignored",
+        "category": "Seltzer",
+        "isFavorite": true,
+        "sLife": {
+            "length": 1,
+            "format": "year"
+        },
+        "imageName": "smirnoffCan",
+        "imageCategory": "smirnoffLogo"
+    },
+    {
+        "name": "Labatt Blue Light Seltzer",
+        "id": 8,
+        "expFormat": "Day",
+        "category": "Seltzer",
+        "isFavorite": true,
+        "sLife": {
+            "length": 9,
+            "format": "months"
+        },
+        "imageName": "blueSeltzer",
+        "imageCategory": "blueseltzerLogo"
+    },
+    {
+        "name": "White Claw",
+        "id": 9,
+        "expFormat": "Months",
+        "category": "Seltzer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 1,
+          "format": "year"
+        },
+        "imageName": "whiteClaw",
+        "imageCategory": "whiteClawLogo"
+    },
+    {
+        "name": "Seagram's Escape",
+        "id": 10,
+        "expFormat": "Day",
+        "category": "Other",
+        "isFavorite": true,
+        "sLife": {
+          "length": 1,
+          "format": "year"
+        },
+        "imageName": "seagrams",
+        "imageCategory": "seagramsLogo"
+    },
+    {
+        "name": "Mike's Hard Lemonade",
+        "id": 11,
+        "expFormat": "Day",
+        "category": "Other",
+        "isFavorite": true,
+        "sLife": {
+          "length": 1,
+          "format": "year"
+        },
+        "imageName": "mikes",
+        "imageCategory": "mikesLogo"
+    },
+    {
+        "name": "Bud Light Seltzer",
+        "id": 12,
+        "expFormat": "Julain Day",
+        "category": "Seltzer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 1,
+          "format": "year"
+        },
+        "imageName": "budlightSeltzer",
+        "imageCategory": "budlightSeltzerLogo"
+    },
+    {
+        "name": "Michelob Ultra",
+        "id": 13,
+        "expFormat": "Julain Day",
+        "category": "Beer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 180,
+          "format": "days"
+        },
+        "imageName": "ultra",
+        "imageCategory": "ultraLogo"
+    },
+    {
+        "name": "YuengLing",
+        "id": 14,
+        "expFormat": "Julain Day",
+        "category": "Beer",
+        "isFavorite": true,
+        "sLife": {
+          "length": 180,
+          "format": "days"
+        },
+        "imageName": "ling",
+        "imageCategory": "lingLogo"
+    }
+]

@@ -1,1 +1,1 @@
-# public_personal
+# Repository for personal projects

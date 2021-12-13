@@ -1,0 +1,26 @@
+[
+     {
+          "userID": "User1",
+          "firstName": "Darwin",
+          "lastName": "Castillo",
+          "email": "darwincastillo728@yahoo.com",
+          "address": {
+               "streetAddress": "8523A Spraight Loop",
+               "apt": "",
+               "city": "Watertown",
+               "state": "NY",
+               "postalCode": "13603"
+          },
+          "phoneNumber": {
+               "type": "home",
+               "number": "760-687-6698"
+          },
+          "cardInfo": {
+               "number": "4767 7182 1799 7248",
+               "expMonth": "04",
+               "expYear": "2026",
+               "cvv": "647"
+          }
+     }
+
+]

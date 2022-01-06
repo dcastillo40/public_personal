@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fallout Fan Page</title>
+    <link rel="stylesheet" href="styles/games.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="images/home3.jpg" alt="fallout title" height="275">
+    </header>
+    <nav id="nav_menu">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+            <li>
+                <a href="games.html" class="current">Games</a>
+                <ul>
+                    <li><a href="games/fallout1.html">Fallout</a></li>
+                    <li><a href="games/fallout2.html">Fallout 2</a></li>
+                    <li><a href="games/fallout3.html">Fallout 3</a></li>
+                    <li><a href="games/fallout4.html">Fallout 4</a></li>
+                    <li><a href="games/others.html">Others</a></li>
+                </ul>
+            </li>
+            <li>      
+                <a href="companies/bethesda.html">Companies</a>
+                <ul>
+                    <li><a href="companies/bethesda.html">Bethesda Software Studios</a></li>
+                    <li><a href="companies/interplay.html">Interplay</a></li>
+                </ul>
+            </li>
+			<li><a href="forum.html">Contact us</a></li>
+		</ul>
+    </nav>
+</body>
+
+<main>
+    <h2>Available Games</h2>
+    <aside>
+            <h1>The Lore on Youtube</h1>
+            <p>
+                <a href="https://www.youtube.com/user/ClassyManIAm" target="_blank">
+                    Oxhorn</a>
+            </p>
+            <p>
+                <a href="https://www.youtube.com/user/thenthapple" target="_blank">
+                    thenthapple</a>
+            </p>
+            <p>
+                <a href="https://www.youtube.com/user/juiceheadiscool" target="_blank">
+                    JuiceHead</a>
+            </p>
+        </aside>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Year Developed</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="games/fallout1.html">Fallout</a></td>
+                <td>1997</td>
+                <td>Southern California</td>
+            </tr>
+            <tr>
+                <td><a href="games/fallout2.html">Fallout 2</a></td>
+                <td>1998</td>
+                <td>Southern California</td>
+            </tr>
+            <tr>
+                <td><a href="games/fallout3.html">Fallout 3</a></td>
+                <td>2008</td>
+                <td>Washington DC</td>
+            </tr>
+            <tr>
+                <td><a href="games/fallout4.html">Fallout 4</a></td>
+                <td>2015</td>
+                <td>Massachusetts</td>
+            </tr>
+            <tr>
+                <td><a href="games/others.html">Others</a></td>
+                <td>2001-2018</td>
+                <td>Various</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fallout Fan Page</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="images/home2.jpg" alt="fallout title" height="275">
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+		<ul>
+			<li id="first"><a href="index.html">Home</a></li>
+            <li>
+                <a href="games.html">Games</a>
+                <ul>
+                    <li><a href="games/fallout1.html">Fallout</a></li>
+                    <li><a href="games/fallout2.html">Fallout 2</a></li>
+                    <li><a href="games/fallout3.html">Fallout 3</a></li>
+                    <li><a href="games/fallout4.html">Fallout 4</a></li>
+                    <li><a href="games/others.html">Others</a></li>
+                </ul>
+            </li>
+            <li>      
+                <a href="companies/bethesda.html">Companies</a>
+                <ul>
+                    <li><a href="companies/bethesda.html">Bethesda Game Studios</a></li>
+                    <li><a href="companies/interplay.html">Interplay</a></li>
+                </ul>
+            </li>
+			<li id="last"><a href="forum.html" class="current">Contact us</a></li>
+		</ul>
+    </nav>
+</body>
+
+<main>
+    <aside>
+        <h1>Follow us</h1>
+        <p>
+            <a href="https://twitter.com/fallout?ref_src=twsrc%5Etfw" 
+            class="twitter-follow-button" data-size="large" data-show-count="false">
+            Follow @fallout</a><script async src="https://platform.twitter.com/widgets.js" 
+            charset="utf-8"></script>
+            <iframe src="https://discordapp.com/widget?id=574934982871613440&theme=dark" 
+            width="215" height="325" allowtransparency="true" frameborder="0"></iframe>
+        </p>
+    </aside>
+    <div class="container">
+        <div id="first"><img src="images/falloutTeam.png" alt="Article Image"></div>
+        <div id="second">
+            <h1>How to contact us</h1>
+            <ol>
+                <li>Email</li>
+                <p><a href="mailto:dcastillo0830@live.sunyjefferson.edu">dcastillo0830@live.sunyjefferson.edu</a></p>
+                <li>Phone</li>
+                <p>(315)222-3234</p>
+                <li>Address</li>
+                <p>2344 Arsenal Street, Watertown, NY</p>
+            </ol>
+    		<form name="registration_form" id="registration_form">
+    			<fieldset>
+	        		<legend>Enter in our monthly giveaway!</legend>
+	        		<label for="email">E-Mail:</label>
+	        		<input type="email" name="email" id="email" autofocus required><br>
+	        		<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name" required><br>
+					<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name" required><br>
+					<label>&nbsp;</label>
+					<input type="submit" id="submit" value="Submit">
+				</fieldset>
+			</form>
+        </div>
+    </div>
+</main>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Fallout Fan Page</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+
+<body>
+    <header>
+        <img src="images/home2.jpg" alt="fallout title" height="275">
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+		<ul>
+			<li id="first"><a href="index.html" class="current">Home</a></li>
+            <li>
+                <a href="games.html">Games</a>
+                <ul>
+                    <li><a href="games/fallout1.html">Fallout</a></li>
+                    <li><a href="games/fallout2.html">Fallout 2</a></li>
+                    <li><a href="games/fallout3.html">Fallout 3</a></li>
+                    <li><a href="games/fallout4.html">Fallout 4</a></li>
+                    <li><a href="games/others.html">Others</a></li>
+                </ul>
+            </li>
+            <li>      
+                <a href="companies/bethesda.html">Companies</a>
+                <ul>
+                    <li><a href="companies/bethesda.html">Bethesda Game Studios</a></li>
+                    <li><a href="companies/interplay.html">Interplay</a></li>
+                </ul>
+            </li>
+			<li id="last"><a href="forum.html">Contact us</a></li>
+		</ul>
+    </nav>
+</body>
+
+<main>
+    <h2>The Latest News</h2>
+    <aside>
+        <h1>In Other News</h1>
+        <p>
+            <a href="https://bethesda.net/en/article/6O9H4YCwQ0RAoZFtQSjF5J/rage-2-meet-the-factions-goon-squad" target="_blank">
+                RAGE 2 – Meet the Factions: Goon Squad</a>
+        </p>
+        <p>
+            <a href="https://bethesda.net/en/article/38QRAe8enqDFfOrQwmCs9X/choose-your-side-the-elder-scrolls-legends-alliance-war-is-live" target="_blank">
+                Choose your side. The Elder Scrolls: Legends - Alliance War is live!</a>
+        </p>
+        <p>
+            <a href="https://bethesda.net/en/article/6tbQ7D1g4wIYlsQ4bW2H1u/2019-bethesda-e3-showcase-registration" target="_blank">
+                Join Us for the 2019 Bethesda E3 Showcase</a>
+        </p>
+        <p>
+            <a href="https://bethesda.net/en/article/4WIjJpCjGcbqMPjY9MveQC/fallout-4-and-skyrim-special-edition-april-featured-mods-2019" target="_blank">
+                Fallout 4 & Skyrim Special Edition – April Featured Mods</a>
+        </p>
+        <p>
+            <a href="https://bethesda.net/en/article/2FnxDhgi04h0dRD9KoN4Zw/5-reasons-now-is-the-perfect-time-to-jump-into-the-elder-scrolls-online" target="_blank">
+                5 Reasons Now is the Perfect Time to Jump into The Elder Scrolls Online</a>
+        </p>
+    </aside>
+    <div class="container">
+        <div id="first"><img src="images/update2.jpg" alt="Article Image"></div>
+        <div id="second">
+            <h1>Fallout 76 April 23, 2019 Update</h1>
+            <p>Patch 8.5 releases today, and includes the new ProSnap Deluxe Camera, 
+                Repair Kits, a pair of crafting balance changes, and a number of bug fixes... </p>
+            <p>
+                <a href="https://fallout.bethesda.net/en/article/64xBDO2aEDqzWOsXuWPtle/fallout-76-wild-appalachia-patch-8-5-notes-april-23-2019" target="_blank">Read More</a>
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div id="first"><img src="images/info.gif" alt="Article Image"></div>
+        <div id="second">
+            <h1>Fallout 76 March 26, 2019 Update</h1>
+            <p>Patch 7.5 releases today, and will introduce the Survival Mode Beta.
+                This game mode featuring fewer restrictions and higher-stakes for Player 
+                vs. Player (PVP) combat...</p>
+            <p>
+                <a href="https://bethesda.net/en/article/62MOIbuwGb2pCFNuRKwYJo/fallout-76-wild-appalachia-patch-notes-march-26-2019" target="_blank">Read More</a>
+            </p>
+        </div>
+    </div>
+</main>
+</html>

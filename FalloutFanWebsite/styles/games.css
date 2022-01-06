@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    color: rgb(0, 183, 255);
+}
+
+html{
+    background-image: url("https://images5.alphacoders.com/921/thumb-1920-921193.jpg");
+    background-color: grey;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+    width: 100%;		
+    margin: 0 auto;
+    
+}
+
+header {
+    background-color: black;
+}
+
+header img {
+    display: block;
+    max-width: 1200px;
+    min-width: 700px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 20px 5% 20px 5%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    padding: 8px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+	padding: .5em 1em 0 1em;
+}
+
+table {
+    width: 80%;
+    height: 500px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: white;
+}
+
+th {
+    height: 60px;
+    background-color: darkgreen;
+    border-bottom: 1px solid white;
+}
+
+th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+table, th, td { 
+    text-align: left;
+    padding-left: 20px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(63, 63, 63);
+}
+
+tr:last-child td:first-child {
+    border-radius: 0 0 0 10px;
+}
+
+tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+#nav_menu {
+    width: 100%;
+    background-color: darkgreen;
+}
+
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#nav_menu ul li {
+	float: left;
+	width: 25%;	
+}
+
+#nav_menu ul li a {
+	display: block;
+	text-align: center;
+	padding: 1em 0;
+	text-decoration: none;
+	background-color: darkgreen;
+	color: white;
+    font-weight: bold;
+    margin: 0 20% 0 20%;
+}
+
+#nav_menu a.current {
+    background-color: white;
+    color: darkgreen;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#nav_menu ul ul {
+	width: 100%;
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_menu ul ul li {
+	float: none;
+}
+
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+
+#nav_menu > ul::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+a:hover, a:focus {
+	font-style: italic;
+}
+
+aside {
+    width: 18%;
+    height: 500px;
+    float: right;
+    background-color: white;
+    margin: 0 0 0 2%;
+    border-radius: 10px 10px 10px 10px;
+}
+
+aside h1 {
+    text-align: center;
+    padding: 8px;
+}
+
+aside p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+aside a {
+    display: inline-block;
+    background-color: darkgreen;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+
